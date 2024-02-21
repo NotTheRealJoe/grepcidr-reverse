@@ -1,8 +1,8 @@
 # grepcidr-reverse
 
-`grepcidr-reverse` is the opposite of `grepcidr`.
+**grepcidr-reverse** is the opposite of [**grepcidr**](https://www.pc-tools.net/unix/grepcidr/).
 
-`grepcidr` can take a list of IP addresses and tell you which of them fall into one (or more) given IP ranges. By contrast, `grepcidr-reverse` takes a single IP address and a list of ranges and tells you which, if any, range the given address falls into.
+**grepcidr** can take a list of IP addresses and tell you which of them fall into one (or more) given IP ranges. By contrast, **grepcidr-reverse** takes a single IP address and a list of ranges and tells you which, if any, range the given address falls into.
 
 ## Usage
 
