@@ -1,2 +1,4 @@
-# built binary
-grepcidr-reverse
+# built files
+/grepcidr-reverse
+/debian/grepcidr-reverse.deb
+/debian/grepcidr-reverse.deb

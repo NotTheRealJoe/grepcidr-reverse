@@ -1,0 +1,5 @@
+Package: grepcidr-reverse
+Version: 1.0.0
+Maintainer: NotTheRealJoe (https://github.com/NotTheRealJoe)
+Architecture: amd64
+Description: grepcidr-reverse takes a single IP address and a list of ranges and tells you which, if any, range the given address falls into
