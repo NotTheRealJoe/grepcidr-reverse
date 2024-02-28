@@ -46,3 +46,15 @@ ip route | cut -f1 -d' ' | grepcidr-reverse --tolerant 192.168.1.1
 ```
 
 Here we use the `--tolerant` flag to make grepcidr-reverse silently ignore any rows from `ip route` that don't start with a valid CIDR range, such as "default".
+
+## Building
+
+- Make sure you have the Go developer tools installed. See https://go.dev/doc/install.
+- In the project directory, run `go get` to install dependecies.
+- Run `make` to generate the `grepcidr-reverse` binary.
+
+### Build the debian package
+
+- Do the above
+- Install dpkg-deb on your system
+- Run `make debain`. **grepcidr-reverse.deb** is generated in the "debian" directory.
